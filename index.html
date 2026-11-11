@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лаб 5 - Responsive вэб хуудас</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">NOMIIN DELGUUR</h1>
+
+    <!-- Мобайл дээр харагдах цэсний товч -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Цэс нээх" aria-expanded="false">☰</button>
+
+    <nav class="navigation" id="mainNav">
+      <a href="#">Нүүр</a>
+      <a href="#books">Номууд</a>
+      <a href="#about">Бидний тухай</a>
+      <a href="#contact">Холбоо барих</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Онлайн номын дэлгүүр</h2>
+    <p>Өөрт хэрэгтэй номоо сонгоорой.</p>
+  </section>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <h3>Ангилал</h3>
+      <div class="sidebar-links">
+        <a href="#books">Бүх ном</a>
+        <a href="#books">Программчлал</a>
+        <a href="#books">Математик</a>
+        <a href="#books">Уран зохиол</a>
+        <a href="#books">Хичээлийн ном</a>
+      </div>
+    </aside>
+
+    <main class="main-content" id="books">
+      <h2>Онцлох ном</h2>
+      <section class="book-grid">
+        <article class="card">
+          <div class="book-image">📘</div>
+          <h3>Java программчлал</h3>
+          <p>OOP суурь ойлголтууд</p>
+          <strong>45,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+        <article class="card">
+          <div class="book-image">🌐</div>
+          <h3>HTML ба CSS</h3>
+          <p>Вэб хуудас зохиомжлох</p>
+          <strong>38,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+        <article class="card">
+          <div class="book-image">📐</div>
+          <h3>Дүрслэх геометр</h3>
+          <p>Инженерийн график</p>
+          <strong>30,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+        <article class="card">
+          <div class="book-image">💰</div>
+          <h3>Инженерийн эдийн засаг</h3>
+          <p>Төсөл үнэлэх арга</p>
+          <strong>42,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+        <article class="card">
+          <div class="book-image">🧮</div>
+          <h3>Дискрет математик</h3>
+          <p>Компьютерийн шинжлэх ухаанд</p>
+          <strong>35,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+        <article class="card">
+          <div class="book-image">📚</div>
+          <h3>Алгоритм ба өгөгдлийн бүтэц</h3>
+          <p>Бодлого, жишээтэй</p>
+          <strong>55,000₮</strong>
+          <button>Сонгох</button>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer" id="contact">
+    <p>&copy; 2026 NOMIIN DELGUUR | Лабораторийн ажил №5</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
